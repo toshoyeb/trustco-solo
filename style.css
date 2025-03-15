@@ -1,0 +1,113 @@
+/* 
+   TrustCo Landing Page Styles
+   This file contains the styles for the landing page.
+*/
+
+/* Global Reset and Box Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Color Variables */
+  :root {
+    /* Primary Colors */
+  
+    /* Secondary Colors */
+  
+    /* Accent Colors */
+    --accent: #787878;
+    --accent-muted: #92A7B0;
+    --accent-secondary: #F0B73F
+      /* Text Colors */
+      --text-primary: #12141D;
+    --text-secondary: #043A53;
+    --text-light: #ffffff;
+    --text-link: #6439FF;
+  
+    /* Background Colors */
+    --bg-light: #ffffff;
+    --bg-secondary: #F2F5F6;
+  
+    /* Border Colors */
+    --border-primary: #91A7B0;
+  
+    /* Base spacing unit */
+    --spacing-unit: 8px;
+  }
+  
+  /* Base Font and Typography */
+  body {
+    font-family: lato;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-primary);
+    background-color: var(--bg-light);
+  }
+  
+  /* Typography Scale */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-primary);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+    color: var(--text-secondary);
+  }
+  
+  /* Links */
+  a {
+    font-family: poppins;
+    color: #6439FF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Spacing */
+  section {
+    margin-bottom: calc(var(--spacing-unit) * 4);
+  }
+  
+  /* Header and Footer Common Styles */
+  header,
+  footer {
+    padding: calc(var(--spacing-unit) * 3) 0;
+  }
