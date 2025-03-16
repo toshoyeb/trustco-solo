@@ -209,6 +209,29 @@ footer {
   top: 33px;
 }
 
+.brand-section {
+  padding: 50px 20px;
+  margin: 0;
+}
+
+.brand-title {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.brand-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+
 /* Responsive Design - Tablet and above */
 @media screen and (min-width: 768px) {
   .hero-content h1 {
