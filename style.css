@@ -107,10 +107,126 @@ a:hover {
   text-decoration: none;
 }
 
+/* Header Styles */
+.site-header {
+  font-family: "Lato", sans-serif;
+  color: var(--text-secondary);
+  padding: 24px 0;
+  background-color: var(--bg-secondary);
+  transition: all 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  padding: 0 calc(var(--spacing-unit) * 2);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link h3 {
+  color: var(--primary);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.mobile-menu-btn {
+  display: block;
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.mobile-menu-btn svg {
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  opacity: 70%;
+}
+
+.nav-link {
+  color: var(--text-primary);
+  font-size: 16px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.header-cta {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main-nav {
+    display: block;
+    color: #12141d;
+  }
+
+  .mobile-menu-btn {
+    display: none;
+  }
+
+  .header-cta {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    line-height: 1;
+    gap: 10px;
+  }
+
+  .login-btn {
+    color: #12141d;
+    border-radius: 42px;
+    padding: 15px 26px;
+    background: #ffffff;
+    opacity: 70%;
+  }
+
+  .login-btn:hover {
+    color: var(--primary);
+  }
+
+  .signup-btn {
+    background-color: var(--primary);
+    border-radius: 42px;
+    color: var(--text-light);
+    padding: 15px 26px;
+    transition: background-color 0.3s ease;
+  }
+
+  .signup-btn:hover {
+    background-color: #034b6b;
+  }
+}
+
 .container {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 0 calc(var(--spacing-unit) * 2);
 }
 
