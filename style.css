@@ -107,7 +107,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* Container */
 .container {
   width: 100%;
   max-width: 1200px;
@@ -115,31 +114,31 @@ a:hover {
   padding: 0 calc(var(--spacing-unit) * 2);
 }
 
-/* Spacing */
 section {
   margin-bottom: calc(var(--spacing-unit) * 4);
 }
 
-/* Header and Footer Common Styles */
 header,
 footer {
   padding: calc(var(--spacing-unit) * 3) 0;
 }
 
-/* Hero Section */
 .hero-section {
   background-color: var(--bg-secondary);
   display: block;
   overflow: hidden;
+  position: relative;
 }
 
 .hero-wrapper {
   padding: calc(var(--spacing-unit) * 5) calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 5) calc(var(--spacing-unit) * 3);
+  position: relative;
 }
 
 /* Hero Content */
 .hero-content {
   text-align: center;
+  position: relative;
 }
 
 .hero-content h1 {
@@ -208,5 +207,66 @@ footer {
 .hero-img-right {
   position: relative;
   top: 33px;
+}
+
+/* Responsive Design - Tablet and above */
+@media screen and (min-width: 768px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content .subheadline {
+    font-size: 16px;
+  }
+}
+
+/* Desktop Layout */
+@media screen and (min-width: 1100px) {
+
+  .hero-wrapper {
+    padding: 180px 120px;
+    max-width: 1110px;
+    min-height: 340px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .hero-content h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    line-height: 1;
+  }
+
+  .hero-content .subheadline {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .hero-img-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-img-right {
+    transform: translateX(13%);
+    top: 0;
+  }
+
+  .get-started-btn,
+  .check-video-btn {
+    display: inline-block;
+    line-height: 1.6;
+  }
 }
 
