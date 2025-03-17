@@ -832,3 +832,134 @@ footer {
     flex: 1;
   }
 }
+
+/* Building Bridges Section */
+.building-bridges-section {
+  padding: 0px 20px 50px 20px;
+  overflow: hidden;
+}
+
+.bridges-content {
+  margin-bottom: 32px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bridges-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.bridges-heading-highlight {
+  color: var(--accent-muted);
+}
+
+.bridges-description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.view-reports-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary);
+  color: var(--text-light);
+  padding: 16px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.arrow-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+  background-color: rgba(242, 245, 246, 0.16);
+  margin-left: 12px;
+}
+
+.arrow-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.bridges-image-container {
+  position: relative;
+  width: 100%;
+  margin-left: -21.5px;
+}
+
+.bridges-image {
+  width: 100%;
+  height: 368px;
+  object-fit: cover;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  transform: translateY(-0.43px);
+  position: relative;
+  z-index: 0;
+}
+
+.point-image {
+  position: absolute;
+  width: 149px;
+  top: 75%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  border-radius: 1000px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.award-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.award-icon {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.award-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.award-number {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.award-label {
+  font-size: 10px;
+  line-height: 1.2;
+}
