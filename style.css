@@ -473,6 +473,7 @@ footer {
   padding: 50px 20px 0px 20px;
   background-color: var(--primary);
   color: var(--text-light);
+  margin-bottom: 0;
 }
 
 .video-content {
@@ -562,6 +563,7 @@ footer {
   /* Video section responsive styles for tablet */
   .video-section {
     padding: 80px 50px;
+    margin-bottom: 0;
   }
 
   .video-title-main,
@@ -587,6 +589,7 @@ footer {
   /* Video section responsive styles for laptop */
   .video-section {
     padding: 100px 150px 0px 150px;
+    margin-bottom: 0;
   }
 
   .video-content {
@@ -673,4 +676,79 @@ footer {
     display: inline-block;
     line-height: 1.6;
   }
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.benefits-tag {
+  display: inline-block;
+  background-color: var(--primary);
+  color: var(--text-light);
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.benefits-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.benefits-subheading {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+}
+
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Benefit Card */
+.benefit-card {
+  background-color: #f2f5f6;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: left;
+}
+
+.benefit-image {
+  margin-bottom: 32px;
+}
+
+.benefit-illustration {
+  width: 94px;
+  height: 84px;
+  object-fit: contain;
+}
+
+.benefit-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.benefit-description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  margin-bottom: 0;
 }
