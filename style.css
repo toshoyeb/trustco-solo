@@ -519,7 +519,6 @@ footer {
   width: 100%;
   height: auto;
   display: block;
-  /* border-radius: 8px; */
   overflow: hidden;
   background-color: var(--primary);
 }
@@ -559,9 +558,75 @@ footer {
   .hero-content .subheadline {
     font-size: 16px;
   }
+
+  /* Video section responsive styles for tablet */
+  .video-section {
+    padding: 80px 50px;
+  }
+
+  .video-title-main,
+  .video-title-sub {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .video-description {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .play-icon-large {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
 }
 
-/* Desktop Layout */
+/* Laptop and larger screens */
+@media screen and (min-width: 1024px) {
+  /* Video section responsive styles for laptop */
+  .video-section {
+    padding: 100px 150px 0px 150px;
+  }
+
+  .video-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+  }
+
+  .video-heading {
+    flex: 0 0 55%;
+  }
+
+  .video-text {
+    flex: 0 0 40%;
+    align-self: center;
+  }
+
+  .video-title-main,
+  .video-title-sub {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+  }
+
+  .video-description {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  .play-icon-large {
+    width: 120px;
+    height: 120px;
+    font-size: 37px;
+  }
+}
+
+/* Desktop Layout for Hero section */
 @media screen and (min-width: 1100px) {
   .hero-wrapper {
     padding: 180px 120px;
