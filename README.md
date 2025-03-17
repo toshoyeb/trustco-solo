@@ -16,8 +16,7 @@ With **TrustCo**, businesses can:
 
 - ✅ **Basic HTML structure** (Completed)  
 - 🎨 **CSS styling for layout and responsiveness** (Upcoming)  
-- 📞 **Contact page for user inquiries** (Completed)  
-- ✨ **JavaScript interactivity (form validation, animations, etc.)** (Upcoming)  
+- 📞 **Contact page for user inquiries** (Completed)
 
 ## 🔧 Getting Started
 
