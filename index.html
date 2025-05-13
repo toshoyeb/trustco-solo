@@ -2,29 +2,198 @@
 <!DOCTYPE html>
 <!-- root element -->
 <html lang="en">
+
 <head>
     <!-- Character encoding -->
     <meta charset="UTF-8">
     <!-- Responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO-friendly meta description -->
-    <meta name="description" content="TrustCo provides top-notch services globally, ensuring reliability and excellence.">
-    <title>TrustCo - Your Trusted Partner</title>
+    <meta name="description"
+        content="TrustCo helps businesses identify and connect with high-potential customers, providing sales teams with the knowledge and skills they need to succeed.">
+    <title>TrustCo - Find High-Potential Customers</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
     <!-- Linking style.css -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header section with navigation -->
-    <header aria-label="TrustCo Header">
-        <h1>TrustCo: Best in the World</h1>
+    <header class="site-header" aria-label="TrustCo Header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Trustco Logo" class="logo-img">
+                <a href="/" class="logo-link">
+                    <h3>Trustco.</h3>
+                </a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <span class="menu-icon"></span>
+            </button>
+
+            <div class="nav-container">
+                <nav class="main-nav" aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link">Features</a></li>
+                        <li><a href="#" class="nav-link">Solutions</a></li>
+                        <li><a href="#" class="nav-link">Company</a></li>
+                        <li><a href="#" class="nav-link">Resources</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-cta">
+                    <a href="#" class="login-btn">Log in</a>
+                    <a href="#" class="signup-btn">Sign up</a>
+                </div>
+            </div>
+        </div>
     </header>
+
     <!-- Main content section -->
     <main>
-        <section>
-            <h2>Welcome to TrustCo</h2>
-            <p>This is placeholder content for the main section of the landing page.</p>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <h1>Find a High-Potential <br>Customers with <span class="highlight">Trustco.</span></h1>
+                    <p class="subheadline">We provide sales teams and professionals with the knowledge, skill and
+                        discipline they need to be 10x more successful.</p>
+                    <!-- CTA Buttons -->
+                    <button type="button" class="get-started-btn">Get Started</button>
+                    <a href="#" class="check-video-btn">
+                        <span class="play-icon">▶</span>
+                        Check Our Video
+                    </a>
+                </div>
+
+                <!-- Hero Images -->
+                <div class="hero-img-wrapper">
+                    <img class="hero-img-left" src="assets/hero-section-left-1x.png" alt="Social media profiles">
+
+                    <img class="hero-img-right" src="assets/hero-section-right-1x.png" alt="Social media profiles">
+                </div>
+            </div>
+
         </section>
-        
+
+        <!-- Brand Section -->
+        <section id="brand" class="brand-section">
+            <div class="brand-container">
+                <p class="brand-title">Trusted by the best in the world</p>
+                <div class="brand-logos">
+                    <img src="assets/google.png" alt="Google" class="brand-logo">
+                    <img src="assets/atlassian.png" alt="Atlassian" class="brand-logo">
+                    <img src="assets/canon.png" alt="Canon" class="brand-logo">
+                    <img src="assets/walmart.png" alt="Walmart" class="brand-logo">
+                    <img src="assets/amazon.png" alt="Amazon" class="brand-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video-section" class="video-section">
+            <div class="video-content">
+                <div class="video-heading">
+                    <h2>
+                        <span class="video-title-main">High-Level Sales</span>
+                        <span class="video-title-sub">Teams & Professionals</span>
+                    </h2>
+                </div>
+                <div class="video-text">
+                    <p class="video-description">Circuit is flexible and affordable and offers you exceptional support
+                        to achieve your career goals. Circuit is a Global training provider based across the UK that
+                        specialises.</p>
+                </div>
+            </div>
+            <div class="video-player">
+                <a href="https://www.youtube.com/" class="video-thumbnail-link"
+                    aria-label="Watch our video about High-Level Sales Teams & Professionals">
+                    <div class="thumbnail-container">
+                        <img src="assets/video-thumbnail.png"
+                            alt="Video about sales training and professional development" class="video-thumbnail">
+                        <div class="play-button-overlay">
+                            <span class="play-icon-large">▶</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="benefits-section">
+            <div class="benefits-content">
+                <div class="benefits-tag">Beneficial</div>
+                <h2 class="benefits-heading">Beneficial Elements</h2>
+                <p class="benefits-subheading">An awesome & powerful tools for your business, increase business revenue
+                </p>
+            </div>
+
+            <div class="benefits-container">
+                <!-- Benefit Card 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="assets/illust1.png" alt="Happy Customers Illustration" class="benefit-illustration">
+                    </div>
+                    <h3 class="benefit-title">Happy Customers</h3>
+                    <p class="benefit-description">Productive agents are happy agents. Give them all the support tools
+                        and information they need to best serve your customers.</p>
+                </div>
+
+                <!-- Benefit Card 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="assets/illust2.png" alt="Best Integrations Illustration" class="benefit-illustration">
+                    </div>
+                    <h3 class="benefit-title">Best Integrations</h3>
+                    <p class="benefit-description">Our software is powerful enough to handle the most complex business,
+                        yet flexible enough to scale with you as you grow.</p>
+                </div>
+
+                <!-- Benefit Card 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-image">
+                        <img src="assets/illust3.png" alt="Grow Without Problems Illustration"
+                            class="benefit-illustration">
+                    </div>
+                    <h3 class="benefit-title">Grow Without Problems</h3>
+                    <p class="benefit-description">With evaluating in depth variety of data sets and including the speed
+                        of tech adaptation we can build bridges between any companies and their customers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Building Bridges Section -->
+        <section id="building-bridges" class="building-bridges-section">
+            <div class="bridges-content">
+                <h2 class="bridges-heading">
+                    Building Bridges<br>
+                    Between <span class="bridges-heading-highlight">Companies</span><br>
+                    <span class="bridges-heading-highlight">And Customers</span>
+                </h2>
+                <p class="bridges-description">
+                    with evaluating in depth variety of data sets and including the speed of tech adaptation we can
+                    build bridges between any companies and their customers.
+                </p>
+                <a href="#" class="view-reports-btn">
+                    View Reports
+                    <div class="arrow-btn-container">
+                        <img src="assets/arrow.png" alt="view-reports" class="arrow-icon">
+                    </div>
+                </a>
+            </div>
+            <div class="bridges-image-container">
+                <img src="assets/bridge.png" alt="Business professionals collaborating" class="bridges-image">
+                <img src="assets/point.png" alt="Point indicator" class="point-image">
+
+            </div>
+        </section>
+
+        <!-- Other sections will go here -->
         <section>
             <h2>Our Services</h2>
             <p>Placeholder for services section.</p>
@@ -38,8 +207,14 @@
 
     <!-- Footer section containing copyright and links -->
     <footer>
-        <p>&copy; 2025 TrustCo. All rights reserved.</p>
-        <p>Footer links and additional information will go here.</p>
+        <div class="container">
+            <p>&copy; 2025 TrustCo. All rights reserved.</p>
+            <p>Footer links and additional information will go here.</p>
+        </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
 </body>
-</html> 
+
+</html>
